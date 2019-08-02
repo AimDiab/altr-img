@@ -1,0 +1,28 @@
+<!doctype HTML>
+    <head>
+        <title>
+            altr-img / Project Murdock- The alt-text HTML post-processor.
+        </title>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <div class="page-content">
+            <h1>
+                &#128520; Project Murdock &#128520;
+            </h1>
+            <h3>
+                The alt-text HTML post-processor.
+            </h3>
+            <input type="file" name="file" id="file" />
+            <p>
+                <a id="dl-link">Download File</a>
+            </p>
+            <pre id="display" class="display"></pre>
+        </div>
+        <script>
+            // An onChange event listener that fires when the uploaded file changes
+            document.getElementById('file').addEventListener('change', processFile, false);
+        </script>
+    </body>
+</html>    
